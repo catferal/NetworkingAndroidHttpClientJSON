@@ -35,7 +35,7 @@ public class NetworkingAndroidHttpClientJSONActivity extends ListActivity {
 		// Get your own user name at http://www.geonames.org/login
 		private static final String USER_NAME = "aporter";
 
-		private static final String URL = "http://api.geonames.org/earthquakesJSON?north=44.1&south=-9.9&east=-22.4&west=55.2&username="
+		private static final String URL = "http://api.geonames.org/earthquakesJSON?north=44.1&south=-8.9&east=-22.4&west=55.2&username="
 				+ USER_NAME;
 
 		AndroidHttpClient mClient = AndroidHttpClient.newInstance("");
