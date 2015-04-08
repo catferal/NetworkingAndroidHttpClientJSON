@@ -30,7 +30,7 @@ public class NetworkingAndroidHttpClientJSONActivity extends ListActivity {
 
 	private class HttpGetTask extends AsyncTask<Void, Void, List<String>> {
 
-		private static final String TAG = "HttpGetTask";
+		private static final String TAG = "HttpGetJSON";
 
 		// Get your own user name at http://www.geonames.org/login
 		private static final String USER_NAME = "aporter";
